@@ -18,7 +18,6 @@ class SlingShot {
     }
 
     display(){
-      image(this.polygon, 200, 20);
       if(this.sling.bodyA){
          var pointA = this.sling.bodyA.position;
          var pointB = this.pointB;
